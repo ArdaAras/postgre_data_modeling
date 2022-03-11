@@ -7,8 +7,6 @@ This project aims to provide means to analyze user activity on a music streaming
 * create_tables.py : Creates the Sparkify database along with fact and dimension tables.
 * etl.py           : Processes log directories and inserts records into tables
 * sql_queries.py   : Used by other files and contains all the queries used within the project. It includes drop, create, insert and select queries.
-* etl.ipynb        : This file is meant for getting used to the environment.
-* test.ipynb       : This file is used to check database status, data types and constraints.
 
 ## Database Schema
 
