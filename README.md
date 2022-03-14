@@ -10,7 +10,7 @@ This project aims to provide means to analyze user activity on a music streaming
 
 ## Database Schema
 
-![sparkify_db schema](sparkify_db.PNG)
+![sparkify_db schema](sparkify_db.png)
 
 ## How to run
 
