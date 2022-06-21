@@ -19,13 +19,13 @@ Running create_tables.py and etl.py files is enough to create and fill the datab
 ### Some queries for analysis
 
 * How many paid accounts do we have? Maybe analysts should consider their prices or the benefits of 'premium' if the result is relatively low.
-    * SELECT count(*) FROM users u WHERE u.level like 'paid'
+    * SELECT count(*) FROM users u WHERE u.level = 'paid'
 
 * What is the name of the longest song? 
     * SELECT title FROM songs ORDER BY duration DESC LIMIT 1
     
 * How many songs have been played on fridays?
-    * SELECT count(*) FROM time WHERE weekday like '4'
+    * SELECT count(*) FROM time WHERE weekday = '4'
 
 ## Author
 
